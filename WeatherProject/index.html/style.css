@@ -1,0 +1,114 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  width: 98%;
+}
+
+.row {
+  width: 90%;
+  max-width: 490px;
+  background: linear-gradient(#ff6b6b, #feb692);
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+  border-radius: 10px; /*corner of the interface area*/
+  text-align: center;
+  padding: 40px 35px; /*height and width of the user interface area*/
+}
+
+.search {
+  /*SEARCH mtlb humne bas search bar aur icon par kaam kiya*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  /*SEARCH INPUT mtlb pehle hum search class me gaye jo parent tha then hum input par gaye jo ki child  tha firhumne uspar kaam kiya */
+  border-radius: 10px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  border: solid rgb(106, 218, 237);
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  height: 50px;
+  flex: 1;
+  margin-right: 16px;
+  margin-left: 1px;
+  font-size: 18px;
+  padding: 7px;
+}
+
+.search button {
+  /*now button child hai toh same way se search k through hum isk access krenge*/
+  border: solid rgb(106, 218, 237);
+  outline: 0;
+  background: hsl(0, 0%, 100%);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.search button img {
+  /*same again!! html me humane search ke andar button aur uske anadar img tag ko*/
+  width: 16px;
+}
+
+.weather-logo {
+  width: 180px;
+  margin-top: 30px;
+}
+
+.temp {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.city {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.detailhehe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2px;
+  margin-top: 50px;
+}
+
+.col1{
+    display: flex;
+    align-items: center;
+text-align: left;
+}
+.col2{
+    display: flex;
+    align-items: center;
+text-align: left;
+}
+
+.col1 img{
+  width: 40px;
+  margin-right: 10px;
+}
+.col2 img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.humidity, .wind{
+  font-size:28px ;
+  margin-top: -6px;
+}
+
